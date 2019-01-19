@@ -6,7 +6,22 @@
 
     <color name="black_overlay">#66000000</color>
     <color name="blue">#40a3c7</color>
+
+
     <color name="yellow">#c9b84d</color>
+
+
+    <color name="white10">#16ffffff</color>
+    <color name="white20">#33ffffff</color>
+    <color name="white25">#3fffffff</color>
+    <color name="white33">#55ffffff</color>
+    <color name="white40">#7fffffff</color>
+    <color name="white50">#7fffffff</color>
+    <color name="white60">#99ffffff</color>
+    <color name="white70">#aaffffff</color>
+    <color name="white80">#ccffffff</color>
+    <color name="white90">#e6ffffff</color>
+    <color name="white">#FFFFFFFF</color>
 
 
 </resources>

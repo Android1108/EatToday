@@ -30,7 +30,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
 
+    private void initBufferKnife(){
 
+    }
 
     /**
      * 吐司提示

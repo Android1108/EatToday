@@ -3,6 +3,8 @@ package com.zhoudb.eattoday3.ui.activity.Bean;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import butterknife.ButterKnife;
+
 /**
  * @author k-lm on 2017/11/14.
  */
@@ -32,6 +34,7 @@ public abstract class WidgetActivity extends BaseActivity {
      */
     void initLayout() {
         setContentView(getLayoutId());
+        ButterKnife.bind(this);
        // SoftHideKeyBoardUtil.assistActivity(this);
 
 

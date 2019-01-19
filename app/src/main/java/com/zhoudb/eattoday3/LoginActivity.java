@@ -100,7 +100,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 if (mLogin == null) {
                     mLogin = RetrofitHelper.creat(ILogin.class);
                 }
-                mLogin.login(RetrofitHelper.getBody(new JsonItem("username",mEmailView.getText()),new JsonItem("password",mPasswordView.getText())))
+                mLogin.login(RetrofitHelper.getBody(new JsonItem("username","admin"),new JsonItem("password","admin")))
                         .enqueue(new Callback<BaseBean>() {
                             @Override
                             public void onResponse(Call<BaseBean> call, Response<BaseBean> response) {
