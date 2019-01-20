@@ -12,7 +12,8 @@ public class Config {
     //public static final String SERVER_URL = "http://150.109.126.130:8080";
 
     //腾讯云测试服务器
-    public static final String SERVER_URL = "http://192.168.1.119:8000";
+    //public static final String SERVER_URL = "http://192.168.1.119:8000";
+    public static final String SERVER_URL = "https://promoprod.alipay.com";
 
     //内部测试服务器
     //public static final String SERVER_URL = "http://192.168.1.16:8080";
